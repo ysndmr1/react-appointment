@@ -44,7 +44,6 @@ export function AddModal({
                 onChange={(e) => setPatientName(e.target.value)}
               />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="datetime">
               <Form.Label>Day&Time</Form.Label>
               <Form.Control
